@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,65 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+/* Login.js */
+
+.login-card {
+  max-width: 640px;
+}
+
+.login-card img {
+  max-width: 240px;
+}
+
+.login-div button {
+  background-color: #0C4DA2;
+  color: #fff;
+  font-weight: 600;
+}
+
+.login-div button:hover {
+  background-color: #0c4da2b3;
+}
+
+
+
+/* Feed-left panel */
+
+
+.lp-logo {
+  max-width: 140px;
+  padding: 5px;
+  border-radius: 100%;
+  position: relative;
+  top: -70px;
+  left: 28%;
+}
+
+.lp-logo img{
+  position: relative;
+}
+
+.lp-profile {
+  margin-top: -50px;
+}
+
+/* Posts section */
+.search {
+  padding: 14px;
+  align-items: center;
+  border-radius: 28px;
+  background: #f6f6f6;
+}
+.search input {
+  width: 100%;
+  font-size: 16px;
+  color: #333333;
+  margin-left: 14px;
+  outline: none;
+  border: none;
+  background: transparent;
 }
