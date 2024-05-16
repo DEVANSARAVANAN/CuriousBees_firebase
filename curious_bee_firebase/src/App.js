@@ -13,7 +13,7 @@ import Register from './components/register';
 import Login from './components/GoogleSingin/Login';
 // import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
-// import Feed from './components/FeedPage/Feed';
+import Feed from './components/FeedPage/Feed';
 // import React, { Component }  from 'react';
 
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
           <Route exact path='/home' Component={Home} />
           <Route exact path='/login' Component={Login} />
           <Route exact path='/register' Component={Register} />
-          {/* <Route exact path='/feed' Component={Feed} /> */}
+          <Route exact path='/feed' Component={Feed} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>

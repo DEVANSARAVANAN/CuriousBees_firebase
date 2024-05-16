@@ -782,14 +782,42 @@
 
 
 
-// ##################################################### simple page ###################################################################
+// // ##################################################### simple page ###################################################################
 
 
 
 import React from 'react'
 const Home = () => {
   return (
-<div>Home page</div>
+<div>
+  <h1>Home page</h1>
+  <br></br>
+<br></br>
+
+<input
+          type="text"
+          // value={search}
+          // onChange={(e) => setPosition(e.target.value)}
+          placeholder="Search"
+        />
+  
+
+<br></br>
+<br></br>
+HashTages
+<br></br>
+<button type="button" >#Tag</button>
+</div>
+
   )
 }
 export default Home
+
+
+
+
+
+
+
+
+

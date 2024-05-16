@@ -12,6 +12,7 @@ function Register() {
   const [lastName, setLastName] = useState("");
   const [college, setCollege] = useState("");
   const [position, setPosition] = useState("");
+
   const [redirect, setRedirect] = useState(false); // State to control redirection
 
   const handleAddItem = async () => {
@@ -43,8 +44,9 @@ function Register() {
 
   // Render Navigate component if redirect state is true
   if (redirect) {
-    return <Navigate to="/home" />;
+    return <Navigate to="/feed" />;
   }
+
 
   return (
     <div style={{
@@ -112,3 +114,6 @@ function Register() {
 
 export default Register;
 
+const register=Register;
+
+export { register};
